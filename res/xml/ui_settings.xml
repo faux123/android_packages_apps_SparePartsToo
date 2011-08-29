@@ -9,28 +9,14 @@
 		<PreferenceScreen android:key="trackball_notifications"
 			android:title="@string/trackball_title" android:summary="@string/trackball_summary">
 			<intent android:action="android.intent.action.MAIN"
-				android:targetPackage="com.cyanogenmod.cmparts"
-				android:targetClass="com.cyanogenmod.cmparts.activities.TrackballNotificationActivity" />
+				android:targetPackage="com.faux123.SparePartsToo"
+				android:targetClass="com.faux123.SparePartsToo.activities.TrackballNotificationActivity" />
 		</PreferenceScreen>
 
 		<!-- Power prompt -->
 		<CheckBoxPreference android:key="power_dialog_prompt"
 			android:title="@string/pref_power_prompt_title" android:summary="@string/pref_power_prompt_summary"
 			android:defaultValue="true" />
-
-		<PreferenceScreen android:key="ui_power_widget_settings_menu"
-			android:title="@string/title_expanded_widget">
-			<intent android:action="android.intent.action.MAIN"
-				android:targetPackage="com.cyanogenmod.cmparts"
-				android:targetClass="com.cyanogenmod.cmparts.activities.UIPowerWidgetActivity" />
-		</PreferenceScreen>
-
-        <PreferenceScreen android:key="ui_status_bar_menu"
-            android:title="@string/ui_status_bar_title">
-            <intent android:action="android.intent.action.MAIN"
-                android:targetPackage="com.cyanogenmod.cmparts"
-                android:targetClass="com.cyanogenmod.cmparts.activities.UIStatusBarActivity" />
-        </PreferenceScreen>
 
 		<!-- Render effect -->
 		<ListPreference android:key="pref_render_effect"

@@ -21,18 +21,5 @@
             android:summaryOn="@string/pref_switch_storage_summary_on"
             android:summaryOff="@string/pref_switch_storage_summary_off" />
 
-        <CheckBoxPreference android:key="enable_permissions_management"
-            android:title="@string/perm_enable_management"
-            android:summary="@string/perm_enable_management_summary" />
-
-        <Preference
-            android:key="phone_goggles_settings"
-            android:title="@string/title_phone_goggles"
-            android:summary="@string/summary_phone_goggles">
-            <intent android:action="android.intent.action.MAIN"
-                    android:targetPackage="com.cyanogenmod.cmparts"
-                    android:targetClass="com.cyanogenmod.cmparts.activities.PhoneGogglesActivity" />
-        </Preference>
-
     </PreferenceCategory>
 </PreferenceScreen>
